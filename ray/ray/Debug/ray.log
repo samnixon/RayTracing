@@ -1,0 +1,39 @@
+﻿Build started 4/29/2015 8:33:45 PM.
+     1>Project "C:\Users\Sam\Documents\Visual Studio 2010\Projects\ray\ray\ray.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ray.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ray.cpp
+         ray.cpp
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(171): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(167): warning C4101: 'diff_factor' : unreferenced local variable
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(166): warning C4101: 'L' : unreferenced local variable
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(198): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(194): warning C4101: 'diff_factor' : unreferenced local variable
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(193): warning C4101: 'L' : unreferenced local variable
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(248): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(244): warning C4101: 'diff_factor' : unreferenced local variable
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(243): warning C4101: 'L' : unreferenced local variable
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(287): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(283): warning C4101: 'diff_factor' : unreferenced local variable
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(282): warning C4101: 'L' : unreferenced local variable
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(369): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\sam\documents\visual studio 2010\projects\ray\ray\ray.cpp(381): warning C4700: uninitialized local variable 'surf' used
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sam\Documents\Visual Studio 2010\Projects\ray\Debug\ray.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ray.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Sam\Documents\Visual Studio 2010\Projects\ray\Debug\ray.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sam\Documents\Visual Studio 2010\Projects\ray\Debug\ray.lib" /MACHINE:X86 Debug\glm.obj
+         Debug\ray.obj
+         Debug\udray.obj
+     1>glm.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         ray.vcxproj -> C:\Users\Sam\Documents\Visual Studio 2010\Projects\ray\Debug\ray.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Sam\Documents\Visual Studio 2010\Projects\ray\Debug\ray.exe;#1" /manifest Debug\ray.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\ray.unsuccessfulbuild".
+         Touching "Debug\ray.lastbuildstate".
+     1>Done Building Project "C:\Users\Sam\Documents\Visual Studio 2010\Projects\ray\ray\ray.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.75
