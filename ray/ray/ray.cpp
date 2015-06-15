@@ -24,7 +24,7 @@ extern vector < Sphere * > sphere_list;
 extern vector < Light * > light_list;
 
 
-float minDepth;
+float minDepth; 
 float maxDepth;
 int shaded, empty = 0;
 bool verbose = false;
