@@ -31,8 +31,7 @@ AppWizard uses "TODO:" comments to indicate parts of the source code you
 should add to or customize.
 
 /////////////////////////////////////////////////////////////////////////////
-I don't believe that I made any changes to udray.cpp beyond adding two fields to
-the Ray struct.
+
 
 I have fully implemented ambient, diffuse, and specular shading with shading.
 
